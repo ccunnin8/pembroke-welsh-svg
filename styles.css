@@ -31,6 +31,8 @@ body {
 .doghead:hover {
   transform-origin: 50% 50%;
   transform: rotate(30deg);
+  -moz-transform-origin: 50% 50%;
+  -moz-transform: rotate(30deg);
 }
 .location, .contact, .heart {
   height: 25px;
