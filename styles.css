@@ -6,7 +6,7 @@ body {
   font-weight: 300;
   color: #111;
   background: url('svgs/background.svg') repeat #edeff0;
-  background-size: 50px 50px;
+  background-size: 55px 52px;
 }
 
 #container {
@@ -20,14 +20,15 @@ body {
 }
 .logo {
   display: block;
-  height: 150px;
-  width: 150px;
+  height: 120px;
+  width: 140px;
   margin: 0 auto;
 }
 .doghead {
-  height: 150px;
-  width: 150px;
+  height: 170px;
+  width: 170px;
 }
+
 .doghead:hover {
   transform-origin: 50% 50%;
   transform: rotate(30deg);
@@ -35,14 +36,15 @@ body {
   -moz-transform: rotate(30deg);
 }
 .location, .contact, .heart {
-  height: 25px;
-  width: 25px;
+  height: 13px;
+  width: 15px;
 }
 .location path, .contact path, .heart path {
-  fill: lightblue;
+  fill: #39ADD1;
 }
-.location path:hover, .contact path:hover, .heart path:hover {
-  fill: black;
+.hover:hover path, .hover:hover span {
+  fill:black;
+  color:black;
 }
 p {
   max-width: 350px;
@@ -55,9 +57,6 @@ a {
   text-decoration: none;
   color: #39add1;
   font-weight: 700;
-  }
-  a:hover {
-    color: #111;
   }
 
 header {
@@ -114,5 +113,6 @@ footer {
   }
   .logo-text {
     display: inline;
+    margin-top: 25px;
   }
 }
